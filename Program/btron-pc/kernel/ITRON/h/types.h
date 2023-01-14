@@ -20,16 +20,19 @@ Version 2, June 1991
 #ifndef _ITRON_TYPES_H_
 #define _ITRON_TYPES_H_	1
 
-typedef char		B;	/* 符号付き8ビット整数 */
-typedef short		H;
-typedef long		W;
-typedef unsigned char	UB;
-typedef unsigned short	UH;
-typedef unsigned long	UW;
+typedef signed char		B;	/* 符号付き8ビット整数 */
+typedef short			H;
+typedef long			W;
+typedef long long		D;
+typedef unsigned char		UB;
+typedef unsigned short		UH;
+typedef unsigned long		UW;
+typedef unsigned long long	UD;
 
+typedef long long	VD;
 typedef long		VW;
 typedef short		VH;
-typedef char		VB;
+typedef signed char	VB;
 typedef void		*VP;
 typedef void		(*FP)(void);
 
